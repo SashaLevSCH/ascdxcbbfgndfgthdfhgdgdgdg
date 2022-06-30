@@ -1,0 +1,9 @@
+{
+  "username": "sidecarhealthdb",
+  "password": "400$1d3car!ax2381",
+  "engine": "mysql",
+  "port": "3306",
+  "dbname": "",
+  "host": "sidecar-api-doctor-db.chyovhogfasy.us-east-1.rds.amazonaws.com",
+  "dbInstanceIdentifier": "sidecar-api-doctor-db"
+}

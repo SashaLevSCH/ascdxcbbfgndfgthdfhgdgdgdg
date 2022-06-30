@@ -1,0 +1,335 @@
+{
+    "grppage": {
+        "grpurl": "https://qa-group.sidecarhealth.com/",
+        "grpuserName": "scqa.sidecar+grtest@gmail.com",
+        "grppassword": "Test1234!"
+    },
+    "signup": {
+        "url": "https://hotfix-site.sidecarhealth.com/",
+        "zip": "75235",
+        "State": "TX",
+        "SelfCoverage": "Yes",
+        "Gender": "FEMALE",
+        "procedures": "Knee Surgery",
+        "Package": "custom",
+        "Address": "5327 Bradford Dr",
+        "Unit": "",
+        "CardHolderName": "Automation QA",
+        "CardNo": "4242424242424242",
+        "CVC": "123",
+        "Exp": "10/23",
+        "zip": "75235",
+        "MedicalPro": [
+            "Pregnant",
+            "Using tobacco products once or more daily",
+            "Dependent on",
+            "Hepatitis",
+            "Back surgery",
+            "Weighed over 300 lbs. as a male or 260 lbs. as a female",
+            "Cancer",
+            "Diabetes",
+            "AIDS/HIV",
+            "Lung",
+            "Liver",
+            "Heart",
+            "Blood",
+            "Systemic Lupus",
+            "Muscular",
+            "Mental",
+            "Rheumatoid arthritis",
+            "Chiropractor",
+            "Psychiatrist or psychologist",
+            ""
+        ],
+        "Dependants": "1"
+    },
+    "signupnoDependant": {
+        "url": "https://hotfix-site.sidecarhealth.com/",
+        "zip": "75235",
+        "State": "TX",
+        "SelfCoverage": "No",
+        "Gender": "MALE",
+        "procedures": "Knee Surgery",
+        "Package": "custom",
+        "Address": "5327 Bradford Dr",
+        "Unit": "",
+        "CardHolderName": "Automation QA",
+        "CardNo": "4242424242424242",
+        "CVC": "123",
+        "Exp": "10/23",
+        "zip": "75235",
+        "MedicalPro": [
+            "Pregnant",
+            "Using tobacco products once or more daily",
+            "Dependent on",
+            "Hepatitis",
+            "Back surgery",
+            "Weighed over 300 lbs. as a male or 260 lbs. as a female",
+            "Cancer",
+            "Diabetes",
+            "AIDS/HIV",
+            "Lung",
+            "Liver",
+            "Heart",
+            "Blood",
+            "Systemic Lupus",
+            "Muscular",
+            "Mental",
+            "Rheumatoid arthritis",
+            "Chiropractor",
+            "Psychiatrist or psychologist",
+            ""
+        ],
+        "Dependants": "1"
+    },
+    "NonCoveredZip": {
+        "url": "https://hotfix-site.sidecarhealth.com/",
+        "zip": "90066",
+        "State": "CA",
+        "SelfCoverage": "Yes",
+        "Gender": "FEMALE",
+        "procedures": "Knee Surgery",
+        "MedicalPro": [
+            "Pregnant",
+            "Using tobacco products once or more daily",
+            "Dependent on",
+            "Hepatitis",
+            "Back surgery",
+            "Weighed over 300 lbs. as a male or 260 lbs. as a female",
+            "Cancer",
+            "Diabetes",
+            "AIDS/HIV",
+            "Lung",
+            "Liver",
+            "Heart",
+            "Blood",
+            "Systemic Lupus",
+            "Muscular",
+            "Mental",
+            "Rheumatoid arthritis",
+            "Chiropractor",
+            "Psychiatrist or psychologist",
+            ""
+        ],
+        "Dependants": "1",
+        "Package": "custom"
+    },
+    "Doctors": {
+        "specialities": [
+            "Family Practice",
+            "General Practice",
+            "Pediatric Medicine",
+            "Therapist",
+            "Chiropractic",
+            "Dermatology",
+            "Psychiatry",
+            "General Surgery",
+            "Cardiology",
+            "Nurse",
+            "Gastroenterology",
+            "Obstetrics & Gynecology",
+            "Internal Medicine",
+            "Otolaryngology",
+            "Hospitals",
+            "Critical Care",
+            "Emergency Medicine",
+            "Pathology",
+            "Diagnostic Radiology",
+            "Provider group",
+            "Physical Medicine",
+            "Nutrition",
+            "Immunology",
+            "Pulmonology",
+            "Internist (Hospitalist)",
+            "Interventional Radiology",
+            "Nuclear Medicine",
+            "Neurology",
+            "Hearing Specialist",
+            "Oncology",
+            "Podiatry",
+            "Optometry/Ophthalmology",
+            "Urology",
+            "Colorectal Surgery",
+            "Endocrinology",
+            "Laboratories",
+            "Nephrology",
+            "Orthopedics",
+            "Orthotics/Prosthetics",
+            "Anesthesiology",
+            "Neurosurgery",
+            "Hematology",
+            "Radiation Oncology",
+            "Rheumatology",
+            "Hematology Oncology",
+            "Oral and Maxillofacial Surgery (OMS)",
+            "Genetics",
+            "Ambulatory facilities",
+            "Care Facilities",
+            "Thoracic Surgery",
+            "Pain Management",
+            "Interventional Pain Management",
+            "Transportation Services",
+            "Cardiac Electrophysiology",
+            "Geriatric Medicine",
+            "Plastic",
+            "Pharmacy",
+            "Suppliers",
+            "Technologist",
+            "Hand Surgery",
+            "Sports medicine",
+            "Gynecological Oncology",
+            "Midwifery",
+            "Sleep medicine",
+            "Vascular Surgery",
+            "Infectious Disease",
+            "Hospice and Palliative Care"
+        ],
+        "url": "https://qa-app.sidecarhealth.com/",
+        "userName": "newscqaaz@mailinator.com",
+        "password": "Test1234!"
+    },
+    "CareNonMaternity": {
+        "url": "https://hotfix-app.sidecarhealth.com/",
+        "UserName": "sidecarqa+maternity+ohio@gmail.com",
+        "Password": "Test1234!",
+        "ShouldPaylocator": "(//*[contains(@class, 'sc-dNLxif jdqdeW')])[1] ",
+        "PlanPaylocator":"(//*[contains(@class, 'sc-dNLxif jdqdeW')])[2]",
+        "zip": "75235",
+        "Gender":"MALE",
+        "CareTypes": [
+	         {
+	         "careName": "Provider fee for flu vaccine",
+             "SetType": "SET3"
+       
+	         },
+
+            {
+                "careName": "SYNTHROID",
+                "SetType": "SET4"
+      
+            },
+            {
+                "careName": "CRESTOR",
+                "SetType": "SET4"
+        
+            },
+            {
+	         "careName": "Provider fee to shave epidermal or dermal lesions",
+                "SetType": "SET3"
+           
+	
+             },
+             {
+	         "careName": "Provider fee to repair knee ligament (ACL or PCL)",
+             "SetType": "SET3"
+           
+	         },
+
+            {
+                "careName": "Surgery center fee to repair knee ligament (acl or pcl)",
+                "SetType": "SET3"
+         
+            },
+            {
+                "careName": "Provider fee for exercises for strength/range of motion/flexibility",
+                "SetType": "SET3"
+           
+            },
+            {
+                "careName": "Cardiologist visit provider fee",
+                "SetType": "SET3"
+              
+            },
+            {
+                "careName": "Admission for musculoskeletal system and connective tissue biopsy",
+                "SetType": "SET3"
+           
+            },
+            {
+                "careName": "Lab fee for comprehensive metabolic panel",
+                "SetType": "SET3"
+            
+            },
+            {
+                "careName": "CRESTOR",
+                "SetType": "SET4"
+             
+            }
+             
+        ]
+    },
+    "CareMaternity": {
+        "url": "https://hotfix-app.sidecarhealth.com/",
+        "UserName": "newscqaaz@mailinator.com",
+        "Password": "Test1234!",
+        "ShouldPaylocator": "(//*[@data-qaid='info_shouldCost'])[2]",
+        "PlanPaylocator": "(//*[@data-qaid='info_benefitAmount'])[2]",
+        "Gender":"MALE",
+        "IsDisplayed":"True",
+        "CareTypes": [
+            {
+                "careName": "Provider fee for vaginal delivery after previous cesarean",
+                "SetType": "SET3"
+             
+            },
+            {
+                "careName": "Provider fee for cesarean delivery",
+                "SetType": "SET3"
+               
+            },
+            {
+	         "careName": "Admission for vaginal delivery",
+                "SetType": "SET3"
+              
+	
+             },
+             {
+	         "careName": "Provider fee for vaginal delivery after previous cesarean",
+             "SetType": "SET3"
+           
+	
+             },
+             {
+	         "careName": "Outpatient Hospital fee for vaginal delivery after previous cesarean",
+             "SetType": "SET3"
+            
+	         },
+             {
+	         "careName": "Admission for vaginal delivery with sterilization",
+             "SetType": "SET3"
+          
+	         },
+{
+	         "careName": "Surgery center fee to deliver placenta after vaginal delivey",
+             "SetType": "SET3"
+           
+	         },
+             {
+	         "careName": "Admission for vaginal delivery with sterilization",
+             "SetType": "SET3"
+           
+	         },
+             {
+	         "careName": "Provider fee for vaginal birth",
+             "SetType": "SET3"
+            
+	         },
+		     {
+	         "careName": "Provider fee for prenatal care, at-risk enhanced service package (includes h1001-h1004)",
+             "SetType": "SET3"
+             
+	         },
+             {
+	         "careName": "Radiology fee for fetus ultrasound",
+             "SetType": "SET3"
+            
+	         }
+
+        ]
+    },
+    "RegressionSignup": {
+        "appUrl": "https://hotfix-app.sidecarhealth.com/",
+        "TXzip": "75235"
+        
+    }
+}

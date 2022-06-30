@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Enroll ACA" parallel="methods" verbose="1" thread-count="1">
+    <parameter name="filename" value="src/test/resources/TestData/ridp_test_data.xlsx" />
+    <parameter name="sheetname" value="Sheet1" />
+    <test name="Enroll ACA"  preserve-order="true">
+
+        <classes>
+            <class name="core.EnrollTests"/>
+        </classes>
+    </test>
+<!-- <listeners>
+        <listener class-name="utils.ReportListener" />
+        <listener class-name="utils.ExtentReporter" />
+    </listeners>-->
+</suite>

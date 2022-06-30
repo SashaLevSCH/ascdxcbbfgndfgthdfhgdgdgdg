@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke ASO" parallel="methods" verbose="1" thread-count="1">
+    <test name="Smoke ASO"  preserve-order="true">
+        <groups>
+            <run>
+                <include name = "ASO">
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="UiTests.ASOTest"/>
+        </classes>
+    </test>
+    <!-- <listeners>
+            <listener class-name="utils.ReportListener" />
+            <listener class-name="utils.ExtentReporter" />
+        </listeners>-->
+</suite>
